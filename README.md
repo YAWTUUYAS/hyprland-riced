@@ -69,8 +69,7 @@ hyprland-riced/
 │   │   ├── hyprpaper.conf      # Wallpaper settings
 │   │   ├── hypridle.conf       # Idle management
 │   │   ├── hyprland.conf       # Main Hyprland config
-│   │   ├── hyprlock.conf       # Lock screen config
-│   │   └── custom.conf         # New custom config
+│   │   └── hyprlock.conf       # Lock screen config
 │   ├── waybar/
 │   │   ├── config              # Waybar modules
 │   │   ├── style.css           # Waybar styling
@@ -81,14 +80,13 @@ hyprland-riced/
 │   │   └── style_1.css         # Wlogout styling with Pywal
 │   ├── wofi/
 │   │   └── style.css           # Wofi styling
+│   ├── swaync/ # Swaync configs (default if not customized)
+│   │   ├── config.json
+│   │   └── style.css
 │   └── kitty/
 │       └── kitty.conf          # Kitty terminal config
 ├── wallpapers/
-│   ├── wallpaper1.jpg          # Default wallpaper
-│   └── wallpaper2.png          # New wallpaper
-├── scripts/                    # New scripts folder
-│   ├── autostart.sh            # Startup script
-│   └── theme-switcher.sh       # Dynamic theme script
+│   └── wallpaper1.jpg          # Default wallpaper
 ├── screenshots/
 │   ├── desktop.png
 │   ├── waybar.png
