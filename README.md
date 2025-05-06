@@ -62,40 +62,44 @@ Welcome to my Hyprland ricing setup! This repository contains my configuration f
 
 ## Directory Structure
 
+```
 hyprland-riced/
 ├── config/
 │   ├── hypr/
-│   │   ├── hyprpaper.conf     # Wallpaper settings
-│   │   ├── hypridle.conf      # Idle management
-│   │   ├── hyprland.conf      # Main Hyprland config
-│   │   ├── hyprlock.conf      # Lock screen config
+│   │   ├── hyprpaper.conf      # Wallpaper settings
+│   │   ├── hypridle.conf       # Idle management
+│   │   ├── hyprland.conf       # Main Hyprland config
+│   │   ├── hyprlock.conf       # Lock screen config
+│   │   └── custom.conf         # New custom config
 │   ├── waybar/
-│   │   ├── config             # Waybar modules
-│   │   ├── style.css          # Waybar styling
-│   │   ├── theme.css          # Waybar color definitions
+│   │   ├── config              # Waybar modules
+│   │   ├── style.css           # Waybar styling
+│   │   └── theme.css           # Waybar color definitions
 │   ├── wlogout/
-│   │   ├── layout_1           # Wlogout layout with text
-│   │   ├── layout.json        # Wlogout minimal layout
-│   │   ├── style_1.css        # Wlogout styling with Pywal
+│   │   ├── layout_1            # Wlogout layout with text
+│   │   ├── layout.json         # Wlogout minimal layout
+│   │   └── style_1.css         # Wlogout styling with Pywal
 │   ├── wofi/
-│   │   ├── style.css          # Wofi styling
-│   ├── kitty/
-│   │   ├── kitty.conf         # Kitty terminal config
-│   ├── swaync/                # Swaync configs (default if not customized)
-│   │   ├── config.json
-│   │   ├── style.css
+│   │   └── style.css           # Wofi styling
+│   └── kitty/
+│       └── kitty.conf          # Kitty terminal config
 ├── wallpapers/
-│   ├── wallpaper1.jpg         # Default wallpaper
+│   ├── wallpaper1.jpg          # Default wallpaper
+│   └── wallpaper2.png          # New wallpaper
+├── scripts/                    # New scripts folder
+│   ├── autostart.sh            # Startup script
+│   └── theme-switcher.sh       # Dynamic theme script
 ├── screenshots/
 │   ├── desktop.png
 │   ├── waybar.png
 │   ├── wofi.png
 │   ├── kitty.png
-│   ├── wlogout.png
-├── install.sh                 # Installation script
-├── README.md                  # This file
-├── LICENSE                    # MIT License
-└── .gitignore                 # Git ignore rules
+│   └── wlogout.png
+├── install.sh                  # Installation script
+├── README.md                   # This file
+├── LICENSE                     # MIT License
+└── .gitignore                  # Git ignore rules
+```
 
 
 ## Keybindings
